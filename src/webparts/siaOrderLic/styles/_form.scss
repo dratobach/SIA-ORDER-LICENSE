@@ -1,0 +1,11 @@
+.addLicenseContainer {
+  margin-top: 0px;
+  justify-content: flex-end;
+}
+
+@media (min-width: 400px) {
+  .addLicenseContainer {
+    margin-top: 17px;
+    justify-content: flex-start;
+  }
+}

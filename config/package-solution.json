@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sia-order-lic-client-side-solution",
+    "id": "e0fd1d93-5258-4b54-bc5b-dac64d5b931a",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SIAOrderLic description"
+      },
+      "longDescription": {
+        "default": "SIAOrderLic description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sia-order-lic Feature",
+        "description": "The feature that activates elements of the sia-order-lic solution.",
+        "id": "276f11d6-70bf-47f3-8955-a6617a3fc23a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sia-order-lic.sppkg"
+  }
+}
